@@ -1,27 +1,33 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 
-const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY || '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';
+const API_KEY = process.env.OPENROUTER_API_KEY;
 
-export async function POST(request: NextRequest) {
-  const { question } = await request.json();
+export async function POST(request: Request) {
+  if (!API_KEY) {
+    console.error('OPENROUTER_API_KEY is not set');
+    return NextResponse.json({ error: 'API key is not configured' }, { status: 500 });
+  }
 
   try {
+    const { question } = await request.json();
+    
     const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
       method: "POST",
       headers: {
-        "Authorization": `Bearer ${OPENROUTER_API_KEY}`,
+        "Authorization": `Bearer ${API_KEY}`,
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        "model": "google/gemini-flash-8b-1.5-exp",
-        "messages": [
-          {"role": "user", "content": question},
-        ],
+        "model": "meta-llama/llama-3.2-11b-vision-instruct",
+        "messages": [{
+          "role": "user",
+          "content": question
+        }]
       })
     });
 
     if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+      throw new Error(`OpenRouter API error: ${response.status}`);
     }
 
     const data = await response.json();
@@ -29,7 +35,7 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({ answer });
   } catch (error) {
-    console.error('Error:', error);
-    return NextResponse.json({ error: 'Failed to generate answer' }, { status: 500 });
+    console.error('API Error:', error);
+    return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
   }
 }

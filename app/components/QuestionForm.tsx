@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { FaRegCopy } from 'react-icons/fa'; // 导入复制图标
 
 interface SampleQuestion {
   category: string;
@@ -15,6 +16,7 @@ export default function QuestionForm({ sampleQuestions }: QuestionFormProps) {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [copySuccess, setCopySuccess] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -26,7 +28,8 @@ export default function QuestionForm({ sampleQuestions }: QuestionFormProps) {
         body: JSON.stringify({ question }),
       });
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        const errorData = await response.json();
+        throw new Error(`HTTP error! status: ${response.status}, message: ${errorData.error || 'Unknown error'}`);
       }
       const data = await response.json();
       setAnswer(data.answer);
@@ -39,6 +42,15 @@ export default function QuestionForm({ sampleQuestions }: QuestionFormProps) {
 
   const handleSampleQuestionClick = (sampleQuestion: string) => {
     setQuestion(sampleQuestion);
+  };
+
+  const copyToClipboard = () => {
+    if (answer) {
+      navigator.clipboard.writeText(answer).then(() => {
+        setCopySuccess(true);
+        setTimeout(() => setCopySuccess(false), 2000);
+      });
+    }
   };
 
   return (
@@ -64,8 +76,20 @@ export default function QuestionForm({ sampleQuestions }: QuestionFormProps) {
       </form>
 
       {answer && (
-        <div className="bg-gray-800 p-4 rounded-lg shadow-lg mb-8">
-          <h2 className="text-2xl font-semibold mb-2">AI Generated Answer:</h2>
+        <div className="mt-8 bg-gray-800 p-6 rounded-lg relative">
+          <button
+            onClick={copyToClipboard}
+            className="absolute top-2 right-2 bg-blue-500 hover:bg-blue-600 text-white p-2 rounded"
+            title="Copy to clipboard"
+          >
+            <FaRegCopy size={16} /> {/* 使用复制图标 */}
+          </button>
+          {copySuccess && (
+            <span className="absolute top-2 right-12 text-green-400 text-sm">
+              Copied!
+            </span>
+          )}
+          <h3 className="text-xl font-bold mb-4">AI Generated Answer:</h3>
           <p className="whitespace-pre-wrap">{answer}</p>
         </div>
       )}
