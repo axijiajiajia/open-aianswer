@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const API_KEY = process.env.OPENROUTER_API_KEY;
+const API_KEY = process.env.OPENROUTER_API_KEY || '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';
 
 export async function POST(request: Request) {
   console.log('API_KEY:', API_KEY ? 'Set' : 'Not set');
