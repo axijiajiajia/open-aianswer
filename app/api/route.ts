@@ -20,7 +20,7 @@ export async function POST(request: Request) {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        "model": "meta-llama/llama-3.2-11b-vision-instruct",
+        "model": "meta-llama/llama-3.2-11b-vision-instruct:free",
         "messages": [{
           "role": "user",
           "content": question
