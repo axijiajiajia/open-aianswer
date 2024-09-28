@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Script from 'next/script';
 import { Metadata } from 'next';
 import QuestionForm from './components/QuestionForm';
+import LanguageSwitcher from './components/LanguageSwitcher';
 
 const sampleQuestions = [
   { 
@@ -31,7 +32,9 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen bg-gray-900 text-white relative">
+      <LanguageSwitcher />
+
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-VP351RX9F9"
         strategy="afterInteractive"
@@ -78,7 +81,7 @@ export default function Home() {
             <div className="bg-gray-800 p-4 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">You should choose this AI answers generating tool for its below-listed benefits:</h3>
               <ul className="list-disc list-inside">
-                <li className="mb-2">It&apos;s completely free to use and requires no sign-up or registration.</li>
+                <li className="mb-2">It&apos;s completely free to use and requires no sign-up.</li>
                 <li className="mb-2">Our tool is user-friendly and does not require you to have any technical skills.</li>
                 <li className="mb-2">It uses accurate language models to write detailed and insightful answers.</li>
                 <li className="mb-2">Our creative AI answer generator provides unique answers to questions that you can use anywhere.</li>
