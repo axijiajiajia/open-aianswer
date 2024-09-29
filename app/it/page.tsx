@@ -8,7 +8,7 @@ const sampleQuestions = [
   { 
     category: "Intelligenza Artificiale", 
     questions: [
-      "Come può l'IA essere sfruttata per migliorare le strategie di marketing digitale?"
+      "Come può l&apos;IA essere sfruttata per migliorare le strategie di marketing digitale?"
     ]
   },
   { 
@@ -80,10 +80,10 @@ export default function Home() {
             <div className="bg-gray-800 p-4 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">Dovresti scegliere questo strumento di generazione di risposte AI per i seguenti vantaggi:</h3>
               <ul className="list-disc list-inside">
-                <li className="mb-2">È completamente gratuito e non richiede registrazione.</li>
+                <li className="mb-2">È completamente gratuito da utilizzare e non richiede alcuna registrazione.</li>
                 <li className="mb-2">Il nostro strumento è facile da usare e non richiede competenze tecniche.</li>
-                <li className="mb-2">Utilizza modelli linguistici accurati per fornire risposte dettagliate e perspicaci.</li>
-                <li className="mb-2">Il nostro generatore creativo di risposte AI fornisce risposte uniche che puoi utilizzare ovunque.</li>
+                <li className="mb-2">Utilizza modelli linguistici accurati per scrivere risposte dettagliate e approfondite.</li>
+                <li className="mb-2">Il nostro generatore di risposte AI creativo fornisce risposte uniche alle domande che puoi utilizzare ovunque.</li>
               </ul>
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function Home() {
             <h3 className="text-2xl font-bold mb-4">Domande Frequenti</h3>
             <div className="bg-gray-800 p-4 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">Come si usa il Generatore di Risposte AI?</h3>
-              <p className="mb-4">Basta inserire la tua domanda nell&apos;area di testo fornita e cliccare su &quot;Genera Risposta AI&quot;. L&apos;IA elaborerà la tua domanda e fornirà una risposta.</p>
+              <p className="mb-4">Basta inserire la tua domanda nell&apos;area di testo fornita e cliccare su &quot;Genera Risposta AI&quot;. L&apos;AI elaborerà la tua domanda e fornirà una risposta.</p>
               
               <h3 className="text-lg font-semibold mb-2">Che tipo di domande posso fare?</h3>
               <p className="mb-4">Il nostro Generatore di Risposte AI è specificamente progettato per domande di marketing digitale. Puoi chiedere informazioni su qualsiasi aspetto del marketing online, inclusi SEO, content marketing, strategie per i social media, email marketing, pubblicità PPC e altro ancora. Sentiti libero di inviare qualsiasi domanda relativa al marketing.</p>
