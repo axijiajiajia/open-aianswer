@@ -68,7 +68,7 @@ export default function Home() {
             Sistema Intelligente di Domande e Risposte - Gratuito, Senza Registrazione
           </p>
           <p className="text-center text-gray-300 text-xl">
-            Potenziamo i marketer con intuizioni e soluzioni guidate dall'IA
+            Potenziamo i marketer con intuizioni e soluzioni guidate dall&apos;IA
           </p>
         </header>
 
