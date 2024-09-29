@@ -26,7 +26,7 @@ const sampleQuestions = [
 ];
 
 export const metadata: Metadata = {
-  title: 'AI答案生成器',
+  title: 'AI Answer Generator',
   description: '使用我们免费的AI答案生成器立即获得您的数字营销问题的答案。无需注册！',
 }
 
@@ -51,7 +51,7 @@ export default function Home() {
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-2xl font-bold flex-1">
             <Link href="/en">
-              AI答案生成器
+            AI Answer Generator
             </Link>
           </div>
           <div className="flex-1 flex justify-center">
@@ -106,7 +106,7 @@ export default function Home() {
           </div>
 
           <footer className="mt-16 text-center text-gray-500">
-            <p>&copy; 2024 AI答案生成器。保留所有权利。</p>
+            <p>&copy; 2024 AI Answer Generator 保留所有权利。</p>
           </footer>
         </main>
       </div>
