@@ -102,7 +102,7 @@ export default function Home() {
               <p className="mb-4">There is no limit to the number of questions you can ask. However, each question should be within 500 characters.</p>
               
               <h3 className="text-lg font-semibold mb-2">What should I do if I encounter an error?</h3>
-              <p>If you encounter an error, please try again later. If the problem persists, you can contact our support team for assistance.</p>
+              <p>If you encounter an error, please try again later. If the problem persists, you can contact support@aianswer.pro for assistance.</p>
             </div>
           </div>
 

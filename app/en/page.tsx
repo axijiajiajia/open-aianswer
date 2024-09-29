@@ -101,7 +101,7 @@ export default function Home() {
               <p className="mb-4">您可以问的问题数量没有限制。但是，每个问题应该在500个字符以内。</p>
               
               <h3 className="text-lg font-semibold mb-2">如果遇到错误该怎么办？</h3>
-              <p>如果遇到错误，请稍后再试。如果问题持续存在，您可以联系我们的支持团队寻求帮助。</p>
+              <p>如果遇到错误，请稍后再试。如果问题持续存在，您可以联系support@aianswer.pro寻求帮助。</p>
             </div>
           </div>
 
