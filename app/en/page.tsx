@@ -1,114 +1,102 @@
 import Link from 'next/link';
-import Script from 'next/script';
-import { Metadata } from 'next';
 import QuestionForm from '../components/QuestionForm';
 import LanguageSwitcher from '../components/LanguageSwitcher';
 
 const sampleQuestions = [
   { 
-    category: "人工智能", 
+    category: "Artificial Intelligence", 
     questions: [
-      "如何利用人工智能增强数字营销策略？"
+      "How can AI be leveraged to enhance digital marketing strategies?"
     ]
   },
   { 
-    category: "搜索引擎优化", 
+    category: "SEO", 
     questions: [
-      "2024年最有效的网页SEO技术有哪些？"
+      "What are the most effective on-page SEO techniques for 2024?"
     ]
   },
   { 
-    category: "社交媒体营销", 
+    category: "Social Media Marketing", 
     questions: [
-      "如何提高我的品牌在Instagram上的互动率？"
+      "How can I increase my brand's engagement on Instagram?"
     ]
   }
 ];
 
-export const metadata: Metadata = {
-  title: 'AI Answer Generator',
-  description: '使用我们免费的AI答案生成器立即获得您的数字营销问题的答案。无需注册！',
-}
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-900 text-white relative">
-      <LanguageSwitcher />
-
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-VP351RX9F9"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-VP351RX9F9');
-        `}
-      </Script>
       <nav className="bg-gray-800 p-4">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-2xl font-bold flex-1">
-            <Link href="/en">
-            AI Answer Generator
+            <Link href="/">
+              AI Answer Generator
             </Link>
           </div>
           <div className="flex-1 flex justify-center">
-            <Link href="/en" className="text-white hover:text-blue-300 mx-4">首页</Link>
-            <Link href="#" className="text-white hover:text-blue-300 mx-4">博客</Link>
+            <Link href="/" className="text-white hover:text-blue-300 mx-4">Home</Link>
+            <Link href="#" className="text-white hover:text-blue-300 mx-4">Blog</Link>
           </div>
-          <div className="flex-1"></div>
+          <div className="flex-1 flex justify-end items-center">
+            <a href="https://ko-fi.com/aianswer" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mr-4">
+              Buy Me a Coffee
+            </a>
+            <LanguageSwitcher />
+          </div>
         </div>
       </nav>
+
       <div className="p-8">
         <header className="mb-12">
-          <h1 className="text-6xl font-bold text-center mb-4">AI答案生成器</h1>
+          <h1 className="text-6xl font-bold text-center mb-4">AI Answer Generator</h1>
           <p className="text-center text-blue-400 text-2xl mb-2">
-            智能问答系统 - 免费使用，无需注册
+            Intelligent Question Answering System - Free, No Sign Up
           </p>
           <p className="text-center text-gray-300 text-xl">
-            为营销人员提供AI驱动的洞察和解决方案
+            Empowering marketers with AI-driven insights and solutions
           </p>
         </header>
 
         <main className="max-w-2xl mx-auto">
           <QuestionForm sampleQuestions={sampleQuestions} />
 
+          {/* Why Choose Our AI Answer Generator? 部分 */}
           <div className="mt-12">
-            <h2 className="text-2xl font-bold mb-4">为什么选择我们的AI答案生成器？</h2>
+            <h2 className="text-2xl font-bold mb-4">Why Choose Our AI Answer Generator?</h2>
             <div className="bg-gray-800 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">您应该选择这个AI答案生成工具，因为它具有以下优势：</h3>
+              <h3 className="text-lg font-semibold mb-2">You should choose this AI answers generating tool for its below-listed benefits:</h3>
               <ul className="list-disc list-inside">
-                <li className="mb-2">完全免费使用，无需注册。</li>
-                <li className="mb-2">我们的工具用户友好，不需要您具备任何技术技能。</li>
-                <li className="mb-2">它使用准确的语言模型来编写详细和有见地的答案。</li>
-                <li className="mb-2">我们的创意AI答案生成器提供独特的答案，您可以在任何地方使用。</li>
+                <li className="mb-2">It&apos;s completely free to use and requires no sign-up.</li>
+                <li className="mb-2">Our tool is user-friendly and does not require you to have any technical skills.</li>
+                <li className="mb-2">It uses accurate language models to write detailed and insightful answers.</li>
+                <li className="mb-2">Our creative AI answer generator provides unique answers to questions that you can use anywhere.</li>
               </ul>
             </div>
           </div>
 
+          {/* FAQ 部分 */}
           <div className="mt-12">
-            <h3 className="text-2xl font-bold mb-4">常见问题</h3>
+            <h3 className="text-2xl font-bold mb-4">FAQ</h3>
             <div className="bg-gray-800 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">如何使用AI答案生成器？</h3>
-              <p className="mb-4">只需在提供的文本区域输入您的问题，然后点击&quot;生成AI答案&quot;。AI将处理您的问题并提供答案。</p>
+              <h3 className="text-lg font-semibold mb-2">How do I use the AI Answer Generator?</h3>
+              <p className="mb-4">Simply enter your question in the text area provided and click on &quot;Generate AI Answer&quot;. The AI will process your question and provide an answer.</p>
               
-              <h3 className="text-lg font-semibold mb-2">我可以问什么类型的问题？</h3>
-              <p className="mb-4">我们的AI答案生成器专门设计用于回答数字营销问题。您可以询问有关在线营销的任何方面，包括SEO、内容营销、社交媒体策略、电子邮件营销、PPC广告等。随时提交您有的任何营销相关问题。</p>
+              <h3 className="text-lg font-semibold mb-2">What kind of questions can I ask?</h3>
+              <p className="mb-4">Our AI Answer Generator is specifically designed for digital marketing questions. You can ask about any aspect of online marketing, including SEO, content marketing, social media strategies, email marketing, PPC advertising, and more.</p>
               
-              <h3 className="text-lg font-semibold mb-2">我可以问的问题数量有限制吗？</h3>
-              <p className="mb-4">您可以问的问题数量没有限制。但是，每个问题应该在500个字符以内。</p>
+              <h3 className="text-lg font-semibold mb-2">Is there a limit to the number of questions I can ask?</h3>
+              <p className="mb-4">There is no limit to the number of questions you can ask. However, each question should be within 500 characters.</p>
               
-              <h3 className="text-lg font-semibold mb-2">如果遇到错误该怎么办？</h3>
-              <p>如果遇到错误，请稍后再试。如果问题持续存在，您可以联系support@aianswer.pro寻求帮助。</p>
+              <h3 className="text-lg font-semibold mb-2">What should I do if I encounter an error?</h3>
+              <p>If you encounter an error, please try again later. If the problem persists, you can contact support@aianswer.pro for assistance.</p>
             </div>
           </div>
-
-          <footer className="mt-16 text-center text-gray-500">
-            <p>&copy; 2024 AI Answer Generator 保留所有权利。</p>
-          </footer>
         </main>
+
+        {/* 页脚 */}
+        <footer className="mt-16 text-center text-gray-500">
+          <p>&copy; 2024 AI Answer Generator. All rights reserved.</p>
+        </footer>
       </div>
     </div>
   );
