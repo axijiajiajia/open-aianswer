@@ -79,7 +79,7 @@ export default function Home() {
             <h3 className="text-2xl font-bold mb-4">常见问题</h3>
             <div className="bg-gray-800 p-4 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">如何使用AI答案生成器？</h3>
-              <p className="mb-4">只需在提供的文本区域输入您的问题，然后点击"生成AI答案"。AI将处理您的问题并提供答案。</p>
+              <p className="mb-4">只需在提供的文本区域输入您的问题，然后点击&quot;生成AI答案&quot;。AI将处理您的问题并提供答案。</p>
               
               <h3 className="text-lg font-semibold mb-2">我可以问什么类型的问题？</h3>
               <p className="mb-4">我们的AI答案生成器专门设计用于数字营销问题。您可以询问有关在线营销的任何方面，包括SEO、内容营销、社交媒体策略、电子邮件营销、PPC广告等。</p>
