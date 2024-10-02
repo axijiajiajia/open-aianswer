@@ -1,7 +1,15 @@
 'use client'
 
 import { useEffect } from 'react';
-import Script from 'next/script';
+
+declare global {
+  interface Window {
+    kofiwidget2?: {
+      init: (text: string, color: string, id: string) => void;
+      draw: () => void;
+    };
+  }
+}
 
 export default function KofiButton() {
   useEffect(() => {
@@ -13,12 +21,8 @@ export default function KofiButton() {
   }, []);
 
   return (
-    <>
-      <Script
-        src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"
-        strategy="afterInteractive"
-      />
-      <div className="kofi-button-container"></div>
-    </>
+    <div className="kofi-button-container">
+      {/* Ko-fi button will be inserted here by the script */}
+    </div>
   );
 }
