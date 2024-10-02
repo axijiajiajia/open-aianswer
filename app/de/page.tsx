@@ -1,6 +1,13 @@
+import { Metadata } from 'next'
 import Link from 'next/link';
 import QuestionForm from '../components/QuestionForm';
 import LanguageSwitcher from '../components/LanguageSwitcher';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://aianswer.pro/de',
+  },
+}
 
 const sampleQuestions = [
   { 
