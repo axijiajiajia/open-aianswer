@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import QuestionForm from '../components/QuestionForm';
 import LanguageSwitcher from '../components/LanguageSwitcher';
@@ -22,6 +23,14 @@ const sampleQuestions = [
     ]
   }
 ];
+
+export const metadata: Metadata = {
+  title: 'AI Answer Generator - Free, No Signup',
+  description: 'Get instant answers to digital marketing questions with free AI Answer Generator. (Free, No Signup)',
+  alternates: {
+    canonical: 'https://aianswer.pro/en',
+  },
+};
 
 export default function Home() {
   return (
