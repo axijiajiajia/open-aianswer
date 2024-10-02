@@ -1,12 +1,12 @@
 import { Metadata } from 'next'
 
-export async function generateMetadata({ params }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   // 获取当前页面的实际路径
   const path = params.lang === 'en' ? '' : params.lang
 
   return {
     alternates: {
-      canonical: `https://yourdomain.com/${path}`,
+      canonical: `https://aianswer.pro/${path}`,
     },
   }
 }
