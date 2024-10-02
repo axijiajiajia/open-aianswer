@@ -6,7 +6,7 @@ const sampleQuestions = [
   { 
     category: "Intelligenza Artificiale", 
     questions: [
-      "Come si può sfruttare l'IA per migliorare le strategie di marketing digitale?"
+      "Come si può sfruttare l&apos;IA per migliorare le strategie di marketing digitale?"
     ]
   },
   { 
@@ -53,7 +53,7 @@ export default function Home() {
             Sistema Intelligente di Domande e Risposte - Gratuito, Senza Registrazione
           </p>
           <p className="text-center text-gray-300 text-xl">
-            Potenziamo i marketer con intuizioni e soluzioni basate sull'IA
+            Potenziamo i marketer con intuizioni e soluzioni basate sull&apos;IA
           </p>
         </header>
 
@@ -79,13 +79,13 @@ export default function Home() {
             <h3 className="text-2xl font-bold mb-4">FAQ</h3>
             <div className="bg-gray-800 p-4 rounded-lg">
               <h3 className="text-lg font-semibold mb-2">Come si usa il Generatore di Risposte AI?</h3>
-              <p className="mb-4">Basta inserire la tua domanda nell'area di testo fornita e cliccare su &quot;Genera Risposta AI&quot;. L'IA elaborerà la tua domanda e fornirà una risposta.</p>
+              <p className="mb-4">Basta inserire la tua domanda nell&apos;area di testo fornita e cliccare su &quot;Genera Risposta AI&quot;. L&apos;IA elaborerà la tua domanda e fornirà una risposta.</p>
               
               <h3 className="text-lg font-semibold mb-2">Che tipo di domande posso fare?</h3>
               <p className="mb-4">Il nostro Generatore di Risposte AI è specificamente progettato per domande di marketing digitale. Puoi chiedere informazioni su qualsiasi aspetto del marketing online, inclusi SEO, content marketing, strategie social media, email marketing, pubblicità PPC e altro ancora.</p>
               
-              <h3 className="text-lg font-semibold mb-2">C'è un limite al numero di domande che posso fare?</h3>
-              <p className="mb-4">Non c'è limite al numero di domande che puoi fare. Tuttavia, ogni domanda dovrebbe essere entro i 500 caratteri.</p>
+              <h3 className="text-lg font-semibold mb-2">C&apos;è un limite al numero di domande che posso fare?</h3>
+              <p className="mb-4">Non c&apos;è limite al numero di domande che puoi fare. Tuttavia, ogni domanda dovrebbe essere entro i 500 caratteri.</p>
               
               <h3 className="text-lg font-semibold mb-2">Cosa devo fare se incontro un errore?</h3>
               <p>Se incontri un errore, per favore riprova più tardi. Se il problema persiste, puoi contattare support@aianswer.pro per assistenza.</p>
