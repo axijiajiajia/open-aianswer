@@ -22,7 +22,7 @@ const FriendlyLinks = () => {
           <div className="flex grow flex-row flex-wrap lg:mx-8 lg:flex-nowrap lg:justify-center">
             {/* LINK BLOCK */}
             <div className="my-2 mr-6 flex max-w-40 grow basis-24 flex-col space-y-2 lg:mx-8 lg:mt-0">
-              <Link href="" className="font-inter text-xs font-light text-gray-500">Marketing</Link>
+              <a href="https://aiwith.me" title="Discover thousands of AI Tools" className="font-inter text-xs font-light text-gray-500">AI With Me</a>
               <Link href="" className="font-inter text-xs font-light text-gray-500">Analytics</Link>
               <Link href="" className="font-inter text-xs font-light text-gray-500">Commerce</Link>
               <Link href="" className="font-inter text-xs font-light text-gray-500">Insights</Link>
