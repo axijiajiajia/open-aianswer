@@ -44,7 +44,7 @@ export default function Home() {
           </div>
           <div className="flex-1 flex justify-center">
             <Link href="/" className="text-white hover:text-blue-300 mx-4">Home</Link>
-            <Link href="#" className="text-white hover:text-blue-300 mx-4">Blog</Link>
+            <Link href="/blog" className="text-white hover:text-blue-300 mx-4">Blog</Link>
           </div>
           <div className="flex-1 flex justify-end items-center">
             <a href="https://ko-fi.com/aianswer" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mr-4">
