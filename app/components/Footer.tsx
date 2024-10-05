@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function Footer() {
   return (
     <footer>
@@ -14,3 +15,5 @@ function Footer() {
 }
 
 // ... rest of the file ...
+
+export default Footer;
