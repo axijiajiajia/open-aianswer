@@ -25,7 +25,8 @@ const FriendlyLinks = () => {
               <a href="https://aiwith.me" title="Discover thousands of AI Tools" className="font-inter text-xs font-light text-gray-500">AI With Me</a>
               <a href="https://fluxai.pro/" title="Flux AI Pro" className="font-inter text-xs font-light text-gray-500">Flux AI Pro</a>
               <a href="https://tap4.ai/ai/flux-ai-io" title="Flux Image AI" className="font-inter text-xs font-light text-gray-500">Flux Image AI</a>
-              <Link href="" className="font-inter text-xs font-light text-gray-500">Insights</Link>
+              <a href="https://aitoolcenter.com/" title="AI Tool Center" className="font-inter text-xs font-light text-gray-500">AI Tool Center</a>
+              <a href="https://bai.tools" target="_blank" className="font-inter text-xs font-light text-gray-500">BAI.tools</a>
             </div>
             {/* Add other link blocks here */}
           </div>
