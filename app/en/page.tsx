@@ -71,17 +71,71 @@ export default function Home() {
 
           {/* Why Choose Our AI Answer Generator? 部分 */}
           <div className="mt-12">
-            <h2 className="text-2xl font-bold mb-4">Why Choose Our AI Answer Generator?</h2>
-            <div className="bg-gray-800 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">You should choose this AI answers generating tool for its below-listed benefits:</h3>
-              <ul className="list-disc list-inside">
-                <li className="mb-2">It&apos;s completely free to use and requires no sign-up.</li>
-                <li className="mb-2">Our tool is user-friendly and does not require you to have any technical skills.</li>
-                <li className="mb-2">It uses accurate language models to write detailed and insightful answers.</li>
-                <li className="mb-2">Our creative AI answer generator provides unique answers to questions that you can use anywhere.</li>
-              </ul>
+            <h2 className="text-2xl font-bold mb-6">Why Choose Our AI Answer Generator?</h2>
+            <div className="bg-gray-800 p-6 rounded-lg space-y-6">
+              <h3 className="text-lg font-semibold mb-4">Discover the advantages of our AI-powered solution for marketers:</h3>
+              <div className="space-y-6">
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">Free and No Sign-up Required</p>
+                  <p className="mb-2">Our tool is completely free to use and requires no sign-up, allowing you to:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>Get instant answers without any financial commitment</li>
+                    <li>Quickly test the tool's capabilities for your specific needs</li>
+                    <li>Share the tool with your team members or clients without restrictions</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">User-Friendly Interface</p>
+                  <p className="mb-2">Our intuitive design ensures a smooth experience for users of all technical levels:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>Simple, one-click process to generate AI responses</li>
+                    <li>Mobile-responsive design for on-the-go access</li>
+                    <li>Easy-to-read formatting of AI-generated answers for quick comprehension</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">Accurate Language Models</p>
+                  <p className="mb-2">Powered by cutting-edge AI technology, our tool provides:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>Up-to-date information on the latest digital marketing trends and strategies</li>
+                    <li>Context-aware responses that understand the nuances of your questions</li>
+                    <li>Detailed explanations backed by industry best practices and data</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">Unique and Creative Answers</p>
+                  <p className="mb-2">Our AI doesn't just regurgitate information; it provides creative insights:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>Innovative ideas and strategies you might not have considered</li>
+                    <li>Combination of tried-and-true methods with cutting-edge approaches</li>
+                    <li>Adaptable suggestions that can be applied to various marketing scenarios</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">Time-Saving Solution</p>
+                  <p className="mb-2">Maximize your productivity with our efficient AI tool:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>Get instant answers to complex marketing questions in seconds</li>
+                    <li>Reduce time spent on research and brainstorming sessions</li>
+                    <li>Quickly generate ideas for content creation and campaign strategies</li>
+                    <li>Access a wealth of marketing knowledge without extensive searching</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">Versatile Applications</p>
+                  <p className="mb-2">Our AI Answer Generator is suitable for various marketing needs:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>SEO optimization strategies and keyword research</li>
+                    <li>Social media content planning and engagement tactics</li>
+                    <li>Email marketing campaign ideas and best practices</li>
+                    <li>PPC advertising tips and performance improvement suggestions</li>
+                    <li>Content marketing strategies for different platforms and audiences</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
+
 
           {/* FAQ 部分 */}
           <div className="mt-12">
