@@ -139,19 +139,27 @@ export default function Home() {
 
           {/* FAQ 部分 */}
           <div className="mt-12">
-            <h3 className="text-2xl font-bold mb-4">FAQ</h3>
-            <div className="bg-gray-800 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">How do I use the AI Answer Generator?</h3>
-              <p className="mb-4">Simply enter your question in the text area provided and click on &quot;Generate AI Answer&quot;. The AI will process your question and provide an answer.</p>
+            <h2 className="text-2xl font-bold mb-6">FAQ</h2>
+            <div className="space-y-6">
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">How do I use the AI Answer Generator?</h3>
+                <p>Simply enter your question in the text area provided and click on "Generate AI Answer". The AI will process your question and provide an answer.</p>
+              </div>
               
-              <h3 className="text-lg font-semibold mb-2">What kind of questions can I ask?</h3>
-              <p className="mb-4">Our AI Answer Generator is specifically designed for digital marketing questions. You can ask about any aspect of online marketing, including SEO, content marketing, social media strategies, email marketing, PPC advertising, and more.</p>
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">What kind of questions can I ask?</h3>
+                <p>Our AI Answer Generator is specifically designed for digital marketing questions. You can ask about any aspect of online marketing, including SEO, content marketing, social media strategies, email marketing, PPC advertising, and more.</p>
+              </div>
               
-              <h3 className="text-lg font-semibold mb-2">Is there a limit to the number of questions I can ask?</h3>
-              <p className="mb-4">There is no limit to the number of questions you can ask. However, each question should be within 500 characters.</p>
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Is there a limit to the number of questions I can ask?</h3>
+                <p>There is no limit to the number of questions you can ask. However, each question should be within 500 characters.</p>
+              </div>
               
-              <h3 className="text-lg font-semibold mb-2">What should I do if I encounter an error?</h3>
-              <p>If you encounter an error, please try again later. If the problem persists, you can contact support@aianswer.pro for assistance.</p>
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">What should I do if I encounter an error?</h3>
+                <p>If you encounter an error, please try again later. If the problem persists, you can contact support@aianswer.pro for assistance.</p>
+              </div>
             </div>
           </div>
         </main>
