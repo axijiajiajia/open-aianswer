@@ -16,15 +16,33 @@ const Blog: React.FC = () => {
           {/* Content */}
           <div className="mb-8 grid gap-5 sm:grid-cols-2 sm:justify-items-stretch md:mb-12 md:grid-cols-3 lg:mb-16 lg:gap-6">
             {/* Item */}
-            {/* ... (保留您提供的三个博客项目代码) ... */}
+            <a href="/" className="h-ax-w-full flex flex-col gap-4 rounded-md px-4 md:px-2">
+          <img alt="" src="/blog-images/blog01.jpg" />
+          <div className="flex h-full w-full flex-col items-start justify-around px-0 py-4">
+            <div className="mb-2 flex flex-col items-start gap-2">
+              <div className="rounded-md bg-blue-50 text-blue-600 font-semibold px-2 py-1.5">
+                <p>AI</p>
+              </div>
+              <p className="text-lg font-bold md:text-2xl">Leveraging AI and Data Analytics in Marketing</p>
+            </div>
+            <p className="text-sm text-gray-500 max-w-72"> In today's fast-paced digital landscape, the importance of artificial intelligence   </p>
           </div>
-          {/* Button */}
-          <a
-            href="#"
-            className="rounded-md bg-black px-6 py-3 text-center font-semibold text-white"
-          >
-            View More
-          </a>
+        </a>
+            {/* Item */}
+            <a href="/" className="h-ax-w-full flex flex-col gap-4 rounded-md px-4 md:px-2">
+          <img alt="" src="/blog-images/blog02.jpg" />
+          <div className="flex h-full w-full flex-col items-start justify-around px-0 py-4">
+            <div className="mb-2 flex flex-col items-start gap-2">
+              <div className="rounded-md bg-blue-50 text-blue-600 font-semibold px-2 py-1.5">
+                <p>SEO</p>
+              </div>
+              <p className="text-lg font-bold md:text-2xl">8 SEO Hiring Managers Share Their #1 Interview Question</p>
+            </div>
+            <p className="text-sm text-gray-500 max-w-72"> Are you frantically Googling “SEO interview questions” because you’ve got an upcoming interview   </p>
+          </div>
+        </a>
+          </div>
+          
         </div>
       </div>
     </section>
