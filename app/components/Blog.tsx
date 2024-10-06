@@ -16,7 +16,7 @@ const Blog: React.FC = () => {
           {/* Content */}
           <div className="mb-8 grid gap-5 sm:grid-cols-2 sm:justify-items-stretch md:mb-12 md:grid-cols-3 lg:mb-16 lg:gap-6">
             {/* Item */}
-            <a href="/" className="h-ax-w-full flex flex-col gap-4 rounded-md px-4 md:px-2">
+            <a href="/blogcontent01" className="h-ax-w-full flex flex-col gap-4 rounded-md px-4 md:px-2">
           <img alt="" src="/blog-images/blog01.jpg" />
           <div className="flex h-full w-full flex-col items-start justify-around px-0 py-4">
             <div className="mb-2 flex flex-col items-start gap-2">
@@ -29,7 +29,7 @@ const Blog: React.FC = () => {
           </div>
         </a>
             {/* Item */}
-            <a href="/" className="h-ax-w-full flex flex-col gap-4 rounded-md px-4 md:px-2">
+            <a href="#" className="h-ax-w-full flex flex-col gap-4 rounded-md px-4 md:px-2">
           <img alt="" src="/blog-images/blog02.jpg" />
           <div className="flex h-full w-full flex-col items-start justify-around px-0 py-4">
             <div className="mb-2 flex flex-col items-start gap-2">
