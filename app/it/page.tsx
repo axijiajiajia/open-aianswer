@@ -71,33 +71,73 @@ export default function Home() {
 
           {/* Perché scegliere il nostro Generatore di Risposte AI? */}
           <div className="mt-12">
-            <h2 className="text-2xl font-bold mb-4">Perché scegliere il nostro Generatore di Risposte AI?</h2>
-            <div className="bg-gray-800 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">Dovresti scegliere questo strumento di generazione di risposte AI per i seguenti vantaggi:</h3>
-              <ul className="list-disc list-inside">
-                <li className="mb-2">È completamente gratuito e non richiede registrazione.</li>
-                <li className="mb-2">Il nostro strumento è facile da usare e non richiede competenze tecniche.</li>
-                <li className="mb-2">Utilizza modelli linguistici accurati per scrivere risposte dettagliate e perspicaci.</li>
-                <li className="mb-2">Il nostro generatore creativo di risposte AI fornisce risposte uniche alle domande che puoi utilizzare ovunque.</li>
-              </ul>
+            <h2 className="text-2xl font-bold mb-6">Perché scegliere il nostro Generatore di Risposte AI?</h2>
+            <div className="bg-gray-800 p-6 rounded-lg space-y-6">
+              <h3 className="text-lg font-semibold mb-4">Scopri i vantaggi della nostra soluzione basata sull'IA per i marketer:</h3>
+              <div className="space-y-6">
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">Gratuito e senza registrazione</p>
+                  <p className="mb-2">Il nostro strumento è completamente gratuito e non richiede registrazione, permettendoti di:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>Ottenere risposte istantanee senza alcun impegno finanziario</li>
+                    <li>Testare rapidamente le capacità dello strumento per le tue esigenze specifiche</li>
+                    <li>Condividere lo strumento con i membri del tuo team o clienti senza restrizioni</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">Interfaccia user-friendly</p>
+                  <p className="mb-2">Il nostro design intuitivo assicura un'esperienza fluida per utenti di tutti i livelli tecnici:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>Processo semplice con un solo clic per generare risposte AI</li>
+                    <li>Design responsive per l'accesso in mobilità</li>
+                    <li>Formattazione facile da leggere delle risposte generate dall'IA per una rapida comprensione</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">Modelli linguistici accurati</p>
+                  <p className="mb-2">Alimentato da tecnologia AI all'avanguardia, il nostro strumento fornisce:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>Informazioni aggiornate sulle ultime tendenze e strategie di marketing digitale</li>
+                    <li>Risposte contestuali che comprendono le sfumature delle tue domande</li>
+                    <li>Spiegazioni dettagliate supportate dalle migliori pratiche del settore e dai dati</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">Risposte uniche e creative</p>
+                  <p className="mb-2">La nostra IA non si limita a ripetere informazioni; fornisce intuizioni creative:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>Idee e strategie innovative che potresti non aver considerato</li>
+                    <li>Combinazione di metodi collaudati con approcci all'avanguardia</li>
+                    <li>Suggerimenti adattabili che possono essere applicati a vari scenari di marketing</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
 
-          {/* FAQ */}
+          {/* Sezione FAQ */}
           <div className="mt-12">
-            <h3 className="text-2xl font-bold mb-4">FAQ</h3>
-            <div className="bg-gray-800 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">Come si usa il Generatore di Risposte AI?</h3>
-              <p className="mb-4">Basta inserire la tua domanda nell&apos;area di testo fornita e cliccare su &quot;Genera Risposta AI&quot;. L&apos;IA elaborerà la tua domanda e fornirà una risposta.</p>
+            <h2 className="text-2xl font-bold mb-6">Domande frequenti</h2>
+            <div className="space-y-6">
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Come si usa il Generatore di Risposte AI?</h3>
+                <p>Basta inserire la tua domanda nell'area di testo fornita e cliccare su "Genera Risposta AI". L'AI elaborerà la tua domanda e fornirà una risposta.</p>
+              </div>
               
-              <h3 className="text-lg font-semibold mb-2">Che tipo di domande posso fare?</h3>
-              <p className="mb-4">Il nostro Generatore di Risposte AI è specificamente progettato per domande di marketing digitale. Puoi chiedere informazioni su qualsiasi aspetto del marketing online, inclusi SEO, content marketing, strategie social media, email marketing, pubblicità PPC e altro ancora.</p>
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Che tipo di domande posso fare?</h3>
+                <p>Il nostro Generatore di Risposte AI è specificamente progettato per domande di marketing digitale. Puoi chiedere informazioni su qualsiasi aspetto del marketing online, inclusi SEO, content marketing, strategie per i social media, email marketing, pubblicità PPC e altro ancora.</p>
+              </div>
               
-              <h3 className="text-lg font-semibold mb-2">C&apos;è un limite al numero di domande che posso fare?</h3>
-              <p className="mb-4">Non c&apos;è limite al numero di domande che puoi fare. Tuttavia, ogni domanda dovrebbe essere entro i 500 caratteri.</p>
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">C'è un limite al numero di domande che posso fare?</h3>
+                <p>Non c'è limite al numero di domande che puoi fare. Tuttavia, ogni domanda dovrebbe essere entro i 500 caratteri.</p>
+              </div>
               
-              <h3 className="text-lg font-semibold mb-2">Cosa devo fare se incontro un errore?</h3>
-              <p>Se incontri un errore, per favore riprova più tardi. Se il problema persiste, puoi contattare support@aianswer.pro per assistenza.</p>
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Cosa devo fare se incontro un errore?</h3>
+                <p>Se incontri un errore, per favore riprova più tardi. Se il problema persiste, puoi contattare support@aianswer.pro per assistenza.</p>
+              </div>
             </div>
           </div>
         </main>

@@ -71,33 +71,94 @@ export default function Home() {
 
           {/* 为什么选择我们的AI答案生成器？ */}
           <div className="mt-12">
-            <h2 className="text-2xl font-bold mb-4">为什么选择我们的AI答案生成器？</h2>
-            <div className="bg-gray-800 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">您应该选择这个AI答案生成工具，因为它具有以下优势：</h3>
-              <ul className="list-disc list-inside">
-                <li className="mb-2">完全免费使用，无需注册。</li>
-                <li className="mb-2">我们的工具用户友好，不需要任何技术技能。</li>
-                <li className="mb-2">它使用精确的语言模型来编写详细和有见地的答案。</li>
-                <li className="mb-2">我们的创意AI答案生成器提供独特的答案，您可以在任何地方使用。</li>
-              </ul>
+            <h2 className="text-2xl font-bold mb-6">为什么选择我们的AI答案生成器？</h2>
+            <div className="bg-gray-800 p-6 rounded-lg space-y-6">
+              <h3 className="text-lg font-semibold mb-4">探索我们为营销人员提供的AI驱动解决方案的优势：</h3>
+              <div className="space-y-6">
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">免费使用，无需注册</p>
+                  <p className="mb-2">我们的工具完全免费使用，无需注册，让您可以：</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>无需任何财务承诺即可获得即时答案</li>
+                    <li>快速测试工具对您特定需求的适用性</li>
+                    <li>无限制地与团队成员或客户分享工具</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">用户友好界面</p>
+                  <p className="mb-2">我们的直观设计确保所有技术水平的用户都能获得流畅的体验：</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>简单的一键式流程生成AI响应</li>
+                    <li>移动响应式设计，随时随地访问</li>
+                    <li>AI生成答案的易读格式，便于快速理解</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">精确的语言模型</p>
+                  <p className="mb-2">由尖端AI技术驱动，我们的工具提供：</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>关于最新数字营销趋势和策略的最新信息</li>
+                    <li>理解问题细微差别的上下文感知响应</li>
+                    <li>基于行业最佳实践和数据的详细解释</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">独特和创意的答案</p>
+                  <p className="mb-2">我们的AI不仅仅是重复信息，它提供创意洞察：</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>您可能没有考虑过的创新想法和策略</li>
+                    <li>结合经过验证的方法和前沿方法</li>
+                    <li>可应用于各种营销场景的适应性建议</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">节省时间的解决方案</p>
+                  <p className="mb-2">通过我们高效的AI工具最大化您的生产力：</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>在几秒钟内获得复杂营销问题的即时答案</li>
+                    <li>减少研究和头脑风暴会议所花费的时间</li>
+                    <li>快速为内容创作和营销策略生成想法</li>
+                    <li>无需广泛搜索即可获取丰富的营销知识</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">多样化应用</p>
+                  <p className="mb-2">我们的AI答案生成器适用于各种营销需求：</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>SEO优化策略和关键词研究</li>
+                    <li>社交媒体内容规划和参与策略</li>
+                    <li>电子邮件营销活动创意和最佳实践</li>
+                    <li>PPC广告技巧和性能改进建议</li>
+                    <li>针对不同平台和受众的内容营销策略</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
 
           {/* 常见问题 */}
           <div className="mt-12">
-            <h3 className="text-2xl font-bold mb-4">常见问题</h3>
-            <div className="bg-gray-800 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">如何使用AI答案生成器？</h3>
-              <p className="mb-4">只需在提供的文本区域输入您的问题，然后点击&quot;生成AI答案&quot;。AI将处理您的问题并提供答案。</p>
+            <h2 className="text-2xl font-bold mb-6">常见问题</h2>
+            <div className="space-y-6">
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">如何使用 AI 答案生成器？</h3>
+                <p>只需在提供的文本区域输入您的问题，然后点击"生成 AI 答案"。AI 将处理您的问题并提供答案。</p>
+              </div>
               
-              <h3 className="text-lg font-semibold mb-2">我可以问什么类型的问题？</h3>
-              <p className="mb-4">我们的AI答案生成器专门设计用于数字营销问题。您可以询问有关在线营销的任何方面，包括SEO、内容营销、社交媒体策略、电子邮件营销、PPC广告等。</p>
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">我可以问什么类型的问题？</h3>
+                <p>我们的 AI 答案生成器专门设计用于数字营销问题。您可以询问有关在线营销的任何方面，包括 SEO、内容营销、社交媒体策略、电子邮件营销、PPC 广告等。</p>
+              </div>
               
-              <h3 className="text-lg font-semibold mb-2">我可以问的问题数量有限制吗？</h3>
-              <p className="mb-4">您可以问的问题数量没有限制。但是，每个问题应该在500个字符以内。</p>
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">我可以问的问题数量有限制吗？</h3>
+                <p>您可以问的问题数量没有限制。但是，每个问题应该在 500 个字符以内。</p>
+              </div>
               
-              <h3 className="text-lg font-semibold mb-2">如果遇到错误该怎么办？</h3>
-              <p>如果遇到错误，请稍后再试。如果问题仍然存在，您可以联系support@aianswer.pro寻求帮助。</p>
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">如果遇到错误该怎么办？</h3>
+                <p>如果遇到错误，请稍后再试。如果问题仍然存在，您可以联系 support@aianswer.pro 寻求帮助。</p>
+              </div>
             </div>
           </div>
         </main>

@@ -71,33 +71,94 @@ export default function Home() {
 
           {/* Warum unseren KI-Antwortgenerator wählen? */}
           <div className="mt-12">
-            <h2 className="text-2xl font-bold mb-4">Warum unseren KI-Antwortgenerator wählen?</h2>
-            <div className="bg-gray-800 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">Sie sollten dieses KI-Antworten-Generierungstool aufgrund der folgenden Vorteile wählen:</h3>
-              <ul className="list-disc list-inside">
-                <li className="mb-2">Es ist völlig kostenlos und erfordert keine Anmeldung.</li>
-                <li className="mb-2">Unser Tool ist benutzerfreundlich und erfordert keine technischen Kenntnisse.</li>
-                <li className="mb-2">Es verwendet präzise Sprachmodelle, um detaillierte und aufschlussreiche Antworten zu verfassen.</li>
-                <li className="mb-2">Unser kreativer KI-Antwortgenerator liefert einzigartige Antworten auf Fragen, die Sie überall verwenden können.</li>
-              </ul>
+            <h2 className="text-2xl font-bold mb-6">Warum unseren KI-Antwortgenerator wählen?</h2>
+            <div className="bg-gray-800 p-6 rounded-lg space-y-6">
+              <h3 className="text-lg font-semibold mb-4">Entdecken Sie die Vorteile unserer KI-gestützten Lösung für Marketer:</h3>
+              <div className="space-y-6">
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">Kostenlos und keine Anmeldung erforderlich</p>
+                  <p className="mb-2">Unser Tool ist völlig kostenlos und erfordert keine Anmeldung, sodass Sie:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>Sofortige Antworten ohne finanzielle Verpflichtung erhalten</li>
+                    <li>Die Fähigkeiten des Tools schnell für Ihre spezifischen Bedürfnisse testen können</li>
+                    <li>Das Tool ohne Einschränkungen mit Ihren Teammitgliedern oder Kunden teilen können</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">Benutzerfreundliche Oberfläche</p>
+                  <p className="mb-2">Unser intuitives Design gewährleistet eine reibungslose Erfahrung für Benutzer aller technischen Niveaus:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>Einfacher Ein-Klick-Prozess zur Generierung von KI-Antworten</li>
+                    <li>Mobil-responsives Design für den Zugriff unterwegs</li>
+                    <li>Leicht zu lesendes Format der KI-generierten Antworten für schnelles Verständnis</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">Präzise Sprachmodelle</p>
+                  <p className="mb-2">Angetrieben von modernster KI-Technologie bietet unser Tool:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>Aktuelle Informationen zu den neuesten digitalen Marketing-Trends und -Strategien</li>
+                    <li>Kontextbewusste Antworten, die die Nuancen Ihrer Fragen verstehen</li>
+                    <li>Detaillierte Erklärungen, unterstützt durch Best Practices der Branche und Daten</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">Einzigartige und kreative Antworten</p>
+                  <p className="mb-2">Unsere KI wiederholt nicht einfach Informationen; sie bietet kreative Einblicke:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>Innovative Ideen und Strategien, die Sie vielleicht noch nicht in Betracht gezogen haben</li>
+                    <li>Kombination bewährter Methoden mit modernsten Ansätzen</li>
+                    <li>Anpassungsfähige Vorschläge, die auf verschiedene Marketing-Szenarien angewendet werden können</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">Zeitsparende Lösung</p>
+                  <p className="mb-2">Maximieren Sie Ihre Produktivität mit unserem effizienten KI-Tool:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>Erhalten Sie sofortige Antworten auf komplexe Marketing-Fragen in Sekunden</li>
+                    <li>Reduzieren Sie die Zeit, die für Recherche und Brainstorming-Sitzungen aufgewendet wird</li>
+                    <li>Generieren Sie schnell Ideen für Content-Erstellung und Kampagnenstrategien</li>
+                    <li>Greifen Sie auf eine Fülle von Marketing-Wissen zu, ohne umfangreiche Suchen durchführen zu müssen</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-700 p-5 rounded">
+                  <p className="text-blue-300 font-semibold mb-3">Vielseitige Anwendungen</p>
+                  <p className="mb-2">Unser KI-Antwortgenerator eignet sich für verschiedene Marketing-Bedürfnisse:</p>
+                  <ul className="list-disc pl-5 space-y-1">
+                    <li>SEO-Optimierungsstrategien und Keyword-Recherche</li>
+                    <li>Social-Media-Content-Planung und Engagement-Taktiken</li>
+                    <li>E-Mail-Marketing-Kampagnenideen und Best Practices</li>
+                    <li>PPC-Werbetipps und Vorschläge zur Leistungsverbesserung</li>
+                    <li>Content-Marketing-Strategien für verschiedene Plattformen und Zielgruppen</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
 
-          {/* FAQ */}
+          {/* FAQ-Bereich */}
           <div className="mt-12">
-            <h3 className="text-2xl font-bold mb-4">Häufig gestellte Fragen</h3>
-            <div className="bg-gray-800 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">Wie benutze ich den KI-Antwortgenerator?</h3>
-              <p className="mb-4">Geben Sie einfach Ihre Frage in das vorgesehene Textfeld ein und klicken Sie auf &quot;KI-Antwort generieren&quot;. Die KI wird Ihre Frage verarbeiten und eine Antwort liefern.</p>
+            <h2 className="text-2xl font-bold mb-6">Häufig gestellte Fragen</h2>
+            <div className="space-y-6">
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Wie benutze ich den KI-Antwortgenerator?</h3>
+                <p>Geben Sie einfach Ihre Frage in den bereitgestellten Textbereich ein und klicken Sie auf "KI-Antwort generieren". Die KI wird Ihre Frage verarbeiten und eine Antwort liefern.</p>
+              </div>
               
-              <h3 className="text-lg font-semibold mb-2">Welche Art von Fragen kann ich stellen?</h3>
-              <p className="mb-4">Unser KI-Antwortgenerator ist speziell für Fragen zum digitalen Marketing konzipiert. Sie können Fragen zu allen Aspekten des Online-Marketings stellen, einschließlich SEO, Content-Marketing, Social-Media-Strategien, E-Mail-Marketing, PPC-Werbung und mehr.</p>
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Welche Art von Fragen kann ich stellen?</h3>
+                <p>Unser KI-Antwortgenerator ist speziell für Fragen zum digitalen Marketing konzipiert. Sie können Fragen zu allen Aspekten des Online-Marketings stellen, einschließlich SEO, Content-Marketing, Social-Media-Strategien, E-Mail-Marketing, PPC-Werbung und mehr.</p>
+              </div>
               
-              <h3 className="text-lg font-semibold mb-2">Gibt es eine Begrenzung für die Anzahl der Fragen, die ich stellen kann?</h3>
-              <p className="mb-4">Es gibt keine Begrenzung für die Anzahl der Fragen, die Sie stellen können. Allerdings sollte jede Frage nicht mehr als 500 Zeichen umfassen.</p>
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Gibt es eine Begrenzung für die Anzahl der Fragen, die ich stellen kann?</h3>
+                <p>Es gibt keine Begrenzung für die Anzahl der Fragen, die Sie stellen können. Jede Frage sollte jedoch innerhalb von 500 Zeichen liegen.</p>
+              </div>
               
-              <h3 className="text-lg font-semibold mb-2">Was soll ich tun, wenn ich auf einen Fehler stoße?</h3>
-              <p>Wenn Sie auf einen Fehler stoßen, versuchen Sie es bitte später erneut. Sollte das Problem weiterhin bestehen, können Sie sich für Unterstützung an support@aianswer.pro wenden.</p>
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Was soll ich tun, wenn ich auf einen Fehler stoße?</h3>
+                <p>Wenn Sie auf einen Fehler stoßen, versuchen Sie es bitte später erneut. Wenn das Problem weiterhin besteht, können Sie sich für Unterstützung an support@aianswer.pro wenden.</p>
+              </div>
             </div>
           </div>
         </main>
