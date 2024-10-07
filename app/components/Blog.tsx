@@ -7,9 +7,9 @@ const Blog: React.FC = () => {
       <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
         {/* Component */}
         <div className="flex flex-col items-center">
-          <h2 className="text-center text-3xl font-bold md:text-5xl">
+          <h1 className="text-center text-3xl font-bold md:text-5xl">
           AI Answer Generator blog
-          </h2>
+          </h1>
           <p className="mb-8 mt-4 text-center text-sm text-gray-500 sm:text-base md:mb-12 lg:mb-16">
           Explore content related to AI marketing
           </p>
