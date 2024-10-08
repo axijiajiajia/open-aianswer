@@ -121,22 +121,37 @@ export default function Home() {
             <div className="space-y-6">
               <div className="bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold mb-3">Come si usa il Generatore di Risposte AI?</h3>
-                <p>Basta inserire la tua domanda nell'area di testo fornita e cliccare su "Genera Risposta AI". L'AI elaborerà la tua domanda e fornirà una risposta.</p>
+                <p>Per utilizzare il Generatore di Risposte AI, basta inserire la tua domanda nella casella di testo fornita e cliccare sul pulsante "Genera Risposta AI". L'AI elaborerà la tua domanda e fornirà una risposta pertinente.</p>
               </div>
               
               <div className="bg-gray-800 p-6 rounded-lg">
-                <h3 className="text-lg font-semibold mb-3">Che tipo di domande posso fare?</h3>
-                <p>Il nostro Generatore di Risposte AI è specificamente progettato per domande di marketing digitale. Puoi chiedere informazioni su qualsiasi aspetto del marketing online, inclusi SEO, content marketing, strategie per i social media, email marketing, pubblicità PPC e altro ancora.</p>
+                <h3 className="text-lg font-semibold mb-3">Che tipo di domande posso fare al Generatore di Risposte AI?</h3>
+                <p>Il Generatore di Risposte AI è specificamente progettato per domande di marketing digitale. Puoi chiedere informazioni su qualsiasi aspetto del marketing online, inclusi SEO, content marketing, strategie per i social media, email marketing, pubblicità PPC e altro ancora. Che si tratti di conoscenze di base o strategie avanzate, l'AI Answer può assisterti.</p>
               </div>
               
               <div className="bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold mb-3">C'è un limite al numero di domande che posso fare?</h3>
-                <p>Non c'è limite al numero di domande che puoi fare. Tuttavia, ogni domanda dovrebbe essere entro i 500 caratteri.</p>
+                <p>Puoi fare un numero illimitato di domande al Generatore di Risposte AI. Tuttavia, ogni domanda dovrebbe essere limitata a 500 caratteri per garantire la migliore qualità delle risposte.</p>
               </div>
               
               <div className="bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold mb-3">Cosa devo fare se incontro un errore?</h3>
-                <p>Se incontri un errore, per favore riprova più tardi. Se il problema persiste, puoi contattare support@aianswer.pro per assistenza.</p>
+                <p>Se incontri un errore, per favore riprova più tardi. Se il problema persiste, puoi contattare il nostro team di supporto all'indirizzo support@aianswer.pro, e ti assisteremo il prima possibile.</p>
+              </div>
+
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Le risposte del Generatore di Risposte AI sono accurate?</h3>
+                <p>Il Generatore di Risposte AI utilizza tecnologia di intelligenza artificiale avanzata per fornire risposte accurate e pertinenti sul marketing digitale. Mentre ottimizziamo continuamente il modello, ti preghiamo di notare che i suggerimenti sono solo a scopo di riferimento e dovrebbero essere adattati alle tue specifiche esigenze aziendali.</p>
+              </div>
+
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Come posso migliorare la qualità delle mie domande per ottenere risposte AI migliori?</h3>
+                <p>Per ottenere risposte AI più accurate e dettagliate, si consiglia di descrivere le tue domande nel modo più chiaro e specifico possibile. Includere informazioni di background rilevanti e dettagli specifici aiuterà l'AI a comprendere meglio le tue esigenze e generare risposte più mirate.</p>
+              </div>
+
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Il Generatore di Risposte AI supporta più lingue?</h3>
+                <p>Attualmente, il Generatore di Risposte AI supporta principalmente l'inglese e il cinese. Stiamo lavorando per espandere il supporto linguistico in modo che più utenti possano beneficiare dei nostri servizi.</p>
               </div>
             </div>
           </div>

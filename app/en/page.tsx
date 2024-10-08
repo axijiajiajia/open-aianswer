@@ -143,22 +143,37 @@ export default function Home() {
             <div className="space-y-6">
               <div className="bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold mb-3">How do I use the AI Answer Generator?</h3>
-                <p>Simply enter your question in the text area provided and click on "Generate AI Answer". The AI will process your question and provide an answer.</p>
+                <p>To use the AI Answer Generator, simply enter your question in the provided text box and click the "Generate AI Answer" button. The AI will process your question and provide a relevant answer.</p>
               </div>
               
               <div className="bg-gray-800 p-6 rounded-lg">
-                <h3 className="text-lg font-semibold mb-3">What kind of questions can I ask AI Answer Generator?</h3>
-                <p>Our AI Answer Generator is specifically designed for digital marketing questions. You can ask about any aspect of online marketing, including SEO, content marketing, social media strategies, email marketing, PPC advertising, and more.</p>
+                <h3 className="text-lg font-semibold mb-3">What kind of questions can I ask the AI Answer Generator?</h3>
+                <p>The AI Answer Generator is specifically designed for digital marketing questions. You can ask about any aspect of online marketing, including SEO, content marketing, social media strategies, email marketing, PPC advertising, and more. Whether it's foundational knowledge or advanced strategies, the AI Answer can assist you.</p>
               </div>
               
               <div className="bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold mb-3">Is there a limit to the number of questions I can ask?</h3>
-                <p>There is no limit to the number of questions you can ask. However, each question should be within 500 characters.</p>
+                <p>You can ask an unlimited number of questions to the AI Answer Generator. However, each question should be limited to 500 characters to ensure the best quality of responses.</p>
               </div>
               
               <div className="bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold mb-3">What should I do if I encounter an error?</h3>
-                <p>If you encounter an error, please try again later. If the problem persists, you can contact support@aianswer.pro for assistance.</p>
+                <p>If you encounter an error, please try again later. If the problem persists, you can contact our support team at support@aianswer.pro, and we will assist you as soon as possible.</p>
+              </div>
+
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Are the answers from the AI Answer Generator accurate?</h3>
+                <p>The AI Answer Generator utilizes advanced artificial intelligence technology to provide accurate and relevant digital marketing answers. While we continuously optimize the model, please note that suggestions are for reference only and should be tailored to your specific business needs.</p>
+              </div>
+
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">How can I improve the quality of my questions to get better AI answers?</h3>
+                <p>To obtain more accurate and detailed AI answers, it is recommended that you describe your questions as clearly and specifically as possible. Including relevant background information and specific details will help the AI better understand your needs and generate more targeted answers.</p>
+              </div>
+
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Does the AI Answer Generator support multiple languages?</h3>
+                <p>Yes, the AI Answer Generator supports multiple languages.</p>
               </div>
             </div>
           </div>

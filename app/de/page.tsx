@@ -142,22 +142,37 @@ export default function Home() {
             <div className="space-y-6">
               <div className="bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold mb-3">Wie benutze ich den KI-Antwortgenerator?</h3>
-                <p>Geben Sie einfach Ihre Frage in den bereitgestellten Textbereich ein und klicken Sie auf "KI-Antwort generieren". Die KI wird Ihre Frage verarbeiten und eine Antwort liefern.</p>
+                <p>Um den KI-Antwortgenerator zu nutzen, geben Sie einfach Ihre Frage in das bereitgestellte Textfeld ein und klicken Sie auf die Schaltfläche "KI-Antwort generieren". Die KI wird Ihre Frage verarbeiten und eine relevante Antwort liefern.</p>
               </div>
               
               <div className="bg-gray-800 p-6 rounded-lg">
-                <h3 className="text-lg font-semibold mb-3">Welche Art von Fragen kann ich stellen?</h3>
-                <p>Unser KI-Antwortgenerator ist speziell für Fragen zum digitalen Marketing konzipiert. Sie können Fragen zu allen Aspekten des Online-Marketings stellen, einschließlich SEO, Content-Marketing, Social-Media-Strategien, E-Mail-Marketing, PPC-Werbung und mehr.</p>
+                <h3 className="text-lg font-semibold mb-3">Welche Art von Fragen kann ich dem KI-Antwortgenerator stellen?</h3>
+                <p>Der KI-Antwortgenerator ist speziell für Fragen zum digitalen Marketing konzipiert. Sie können Fragen zu allen Aspekten des Online-Marketings stellen, einschließlich SEO, Content-Marketing, Social-Media-Strategien, E-Mail-Marketing, PPC-Werbung und mehr. Ob es sich um Grundlagenwissen oder fortgeschrittene Strategien handelt, die KI-Antwort kann Ihnen helfen.</p>
               </div>
               
               <div className="bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold mb-3">Gibt es eine Begrenzung für die Anzahl der Fragen, die ich stellen kann?</h3>
-                <p>Es gibt keine Begrenzung für die Anzahl der Fragen, die Sie stellen können. Jede Frage sollte jedoch innerhalb von 500 Zeichen liegen.</p>
+                <p>Sie können dem KI-Antwortgenerator unbegrenzt viele Fragen stellen. Allerdings sollte jede Frage auf 500 Zeichen begrenzt sein, um die beste Qualität der Antworten zu gewährleisten.</p>
               </div>
               
               <div className="bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold mb-3">Was soll ich tun, wenn ich auf einen Fehler stoße?</h3>
-                <p>Wenn Sie auf einen Fehler stoßen, versuchen Sie es bitte später erneut. Wenn das Problem weiterhin besteht, können Sie sich für Unterstützung an support@aianswer.pro wenden.</p>
+                <p>Wenn Sie auf einen Fehler stoßen, versuchen Sie es bitte später erneut. Wenn das Problem weiterhin besteht, können Sie sich an unser Support-Team unter support@aianswer.pro wenden, und wir werden Ihnen so schnell wie möglich helfen.</p>
+              </div>
+             
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Sind die Antworten des KI-Antwortgenerators genau?</h3>
+                <p>Der KI-Antwortgenerator verwendet fortschrittliche künstliche Intelligenz-Technologie, um genaue und relevante Antworten zum digitalen Marketing zu liefern. Während wir das Modell kontinuierlich optimieren, beachten Sie bitte, dass die Vorschläge nur als Referenz dienen und an Ihre spezifischen Geschäftsanforderungen angepasst werden sollten.</p>
+              </div>
+              
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Wie kann ich die Qualität meiner Fragen verbessern, um bessere KI-Antworten zu erhalten?</h3>
+                <p>Um genauere und detailliertere KI-Antworten zu erhalten, empfiehlt es sich, Ihre Fragen so klar und spezifisch wie möglich zu beschreiben. Das Einbeziehen relevanter Hintergrundinformationen und spezifischer Details wird der KI helfen, Ihre Bedürfnisse besser zu verstehen und gezieltere Antworten zu generieren.</p>
+              </div>
+              
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">Unterstützt der KI-Antwortgenerator mehrere Sprachen?</h3>
+                <p>Derzeit unterstützt der KI-Antwortgenerator hauptsächlich Englisch und Chinesisch. Wir arbeiten daran, die Sprachunterstützung zu erweitern, damit mehr Benutzer von unseren Diensten profitieren können.</p>
               </div>
             </div>
           </div>

@@ -141,23 +141,38 @@ export default function Home() {
             <h2 className="text-2xl font-bold mb-6">常见问题</h2>
             <div className="space-y-6">
               <div className="bg-gray-800 p-6 rounded-lg">
-                <h3 className="text-lg font-semibold mb-3">如何使用 AI 答案生成器？</h3>
-                <p>只需在提供的文本区域输入您的问题，然后点击"生成 AI 答案"。AI 将处理您的问题并提供答案。</p>
+                <h3 className="text-lg font-semibold mb-3">如何使用AI答案生成器？</h3>
+                <p>使用AI答案生成器很简单，只需在提供的文本框中输入您的问题，然后点击"生成AI答案"按钮。AI将处理您的问题并提供相关答案。</p>
               </div>
               
               <div className="bg-gray-800 p-6 rounded-lg">
-                <h3 className="text-lg font-semibold mb-3">我可以问什么类型的问题？</h3>
-                <p>我们的 AI 答案生成器专门设计用于数字营销问题。您可以询问有关在线营销的任何方面，包括 SEO、内容营销、社交媒体策略、电子邮件营销、PPC 广告等。</p>
+                <h3 className="text-lg font-semibold mb-3">我可以向AI答案生成器提出什么类型的问题？</h3>
+                <p>AI答案生成器专门设计用于回答数字营销问题。您可以询问有关在线营销的任何方面，包括SEO、内容营销、社交媒体策略、电子邮件营销、PPC广告等。无论是基础知识还是高级策略，AI答案都能为您提供帮助。</p>
               </div>
               
               <div className="bg-gray-800 p-6 rounded-lg">
-                <h3 className="text-lg font-semibold mb-3">我可以问的问题数量有限制吗？</h3>
-                <p>您可以问的问题数量没有限制。但是，每个问题应该在 500 个字符以内。</p>
+                <h3 className="text-lg font-semibold mb-3">我可以提问的次数有限制吗？</h3>
+                <p>您可以向AI答案生成器提出无限次数的问题。但是，为了确保回答的质量，每个问题应限制在500个字符以内。</p>
               </div>
               
               <div className="bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold mb-3">如果遇到错误该怎么办？</h3>
-                <p>如果遇到错误，请稍后再试。如果问题仍然存在，您可以联系 support@aianswer.pro 寻求帮助。</p>
+                <p>如果遇到错误，请稍后再试。如果问题持续存在，您可以联系我们的支持团队，邮箱地址是support@aianswer.pro，我们会尽快为您提供帮助。</p>
+              </div>
+             
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">AI答案生成器的回答准确吗？</h3>
+                <p>AI答案生成器使用先进的人工智能技术提供准确和相关的数字营销答案。虽然我们不断优化模型，但请注意，建议仅供参考，应根据您的具体业务需求进行调整。</p>
+              </div>
+              
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">如何提高我的问题质量以获得更好的AI答案？</h3>
+                <p>为了获得更准确和详细的AI答案，建议您尽可能清晰和具体地描述您的问题。包括相关背景信息和具体细节将帮助AI更好地理解您的需求，并生成更有针对性的答案。</p>
+              </div>
+              
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3">AI答案生成器支持多种语言吗？</h3>
+                <p>目前，AI答案生成器主要支持英语和中文。我们正在努力扩展语言支持，以便更多用户能够受益于我们的服务。</p>
               </div>
             </div>
           </div>
