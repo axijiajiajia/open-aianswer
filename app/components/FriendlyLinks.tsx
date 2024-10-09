@@ -45,6 +45,7 @@ const FriendlyLinks = () => {
             
             </div>
             <a href='/privacy-policy' className="font-inter ml-2 text-s text-black">Our Privacy Policy</a>
+            <a href='/terms-and-conditions' className="font-inter ml-2 text-s text-black">Terms & Conditions</a>
             {/* Add other items here */}
           </div>
         </div>
