@@ -42,3 +42,5 @@ Open-Source Next.js Artist & AI Enthusiast.
 linktr:https://linktr.ee/aixjiajiajia
 
 https://www.indiehackers.com/axijiajiajia
+
+https://bigfrontend.dev/user/m6srsOi
