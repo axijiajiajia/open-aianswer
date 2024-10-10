@@ -38,5 +38,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## About Me 关于我
 Open-Source Next.js Artist & AI Enthusiast.
-#linktr:https://linktr.ee/aixjiajiajia
-#https://www.indiehackers.com/axijiajiajia
+
+linktr:https://linktr.ee/aixjiajiajia
+
+https://www.indiehackers.com/axijiajiajia
